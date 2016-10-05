@@ -12,6 +12,14 @@
 		900518D21DA4D2C400AC0A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900518D01DA4D2C400AC0A02 /* Main.storyboard */; };
 		900518D41DA4D2C400AC0A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900518D31DA4D2C400AC0A02 /* Assets.xcassets */; };
 		900518D71DA4D2C400AC0A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900518D51DA4D2C400AC0A02 /* LaunchScreen.storyboard */; };
+		900518E51DA4D30500AC0A02 /* itsATie.png in Resources */ = {isa = PBXBuildFile; fileRef = 900518DE1DA4D30500AC0A02 /* itsATie.png */; };
+		900518E61DA4D30500AC0A02 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 900518DF1DA4D30500AC0A02 /* paper.png */; };
+		900518E71DA4D30500AC0A02 /* PaperCoversRock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 900518E01DA4D30500AC0A02 /* PaperCoversRock.jpg */; };
+		900518E81DA4D30500AC0A02 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 900518E11DA4D30500AC0A02 /* rock.png */; };
+		900518E91DA4D30500AC0A02 /* RockCrushesScissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 900518E21DA4D30500AC0A02 /* RockCrushesScissors.jpeg */; };
+		900518EA1DA4D30500AC0A02 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 900518E31DA4D30500AC0A02 /* scissors.png */; };
+		900518EB1DA4D30500AC0A02 /* ScissorsCutPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 900518E41DA4D30500AC0A02 /* ScissorsCutPaper.jpg */; };
+		900518ED1DA4D3D600AC0A02 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900518EC1DA4D3D600AC0A02 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		900518D31DA4D2C400AC0A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900518D61DA4D2C400AC0A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900518D81DA4D2C400AC0A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900518DE1DA4D30500AC0A02 /* itsATie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itsATie.png; sourceTree = "<group>"; };
+		900518DF1DA4D30500AC0A02 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		900518E01DA4D30500AC0A02 /* PaperCoversRock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaperCoversRock.jpg; sourceTree = "<group>"; };
+		900518E11DA4D30500AC0A02 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		900518E21DA4D30500AC0A02 /* RockCrushesScissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockCrushesScissors.jpeg; sourceTree = "<group>"; };
+		900518E31DA4D30500AC0A02 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		900518E41DA4D30500AC0A02 /* ScissorsCutPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScissorsCutPaper.jpg; sourceTree = "<group>"; };
+		900518EC1DA4D3D600AC0A02 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,15 @@
 				900518CC1DA4D2C400AC0A02 /* AppDelegate.swift */,
 				900518CE1DA4D2C400AC0A02 /* ViewController.swift */,
 				900518D01DA4D2C400AC0A02 /* Main.storyboard */,
+				900518EC1DA4D3D600AC0A02 /* ResultViewController.swift */,
 				900518D31DA4D2C400AC0A02 /* Assets.xcassets */,
+				900518DE1DA4D30500AC0A02 /* itsATie.png */,
+				900518DF1DA4D30500AC0A02 /* paper.png */,
+				900518E01DA4D30500AC0A02 /* PaperCoversRock.jpg */,
+				900518E11DA4D30500AC0A02 /* rock.png */,
+				900518E21DA4D30500AC0A02 /* RockCrushesScissors.jpeg */,
+				900518E31DA4D30500AC0A02 /* scissors.png */,
+				900518E41DA4D30500AC0A02 /* ScissorsCutPaper.jpg */,
 				900518D51DA4D2C400AC0A02 /* LaunchScreen.storyboard */,
 				900518D81DA4D2C400AC0A02 /* Info.plist */,
 			);
@@ -123,9 +147,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900518EB1DA4D30500AC0A02 /* ScissorsCutPaper.jpg in Resources */,
 				900518D71DA4D2C400AC0A02 /* LaunchScreen.storyboard in Resources */,
+				900518E91DA4D30500AC0A02 /* RockCrushesScissors.jpeg in Resources */,
+				900518E61DA4D30500AC0A02 /* paper.png in Resources */,
+				900518E51DA4D30500AC0A02 /* itsATie.png in Resources */,
+				900518E81DA4D30500AC0A02 /* rock.png in Resources */,
+				900518E71DA4D30500AC0A02 /* PaperCoversRock.jpg in Resources */,
 				900518D41DA4D2C400AC0A02 /* Assets.xcassets in Resources */,
 				900518D21DA4D2C400AC0A02 /* Main.storyboard in Resources */,
+				900518EA1DA4D30500AC0A02 /* scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +169,7 @@
 			files = (
 				900518CF1DA4D2C400AC0A02 /* ViewController.swift in Sources */,
 				900518CD1DA4D2C400AC0A02 /* AppDelegate.swift in Sources */,
+				900518ED1DA4D3D600AC0A02 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
